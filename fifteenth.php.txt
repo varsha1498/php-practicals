@@ -1,0 +1,9 @@
+<?php		//WAP to print first n even numbers
+$n=10;
+for($i=2;$i<=$n;)
+{
+	echo($i);
+	echo("\r\n");
+	$i=$i+2;
+}
+?>
